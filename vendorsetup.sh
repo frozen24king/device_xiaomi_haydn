@@ -24,6 +24,10 @@ rm -rf hardware/xiaomi && git clone https://github.com/LineageOS/android_hardwar
 echo 'Cloning firmware'
 git clone https://gitlab.com/Alucard_Storm/vendor_xiaomi_haydn-firmware -b thirteen vendor/xiaomi/haydn-firmware
 
+# Gapps
+echo 'Cloning gapps'
+git clone https://gitlab.com/AdarshGrewal/vendor_gms.git -b 13-lineage vendor/gms
+
 # Camera
 echo 'Cloning Leica Camera'
 git clone https://gitlab.com/Alucard_Storm/haydn-miuicamera -b thirteen-leica vendor/xiaomi/haydn-miuicamera

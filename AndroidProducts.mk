@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_haydn.mk
+    $(LOCAL_DIR)/voltage_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_haydn-user \
-    aosp_haydn-userdebug \
-    aosp_haydn-eng
+    voltage_haydn-user \
+    voltage_haydn-userdebug \
+    voltage_haydn-eng

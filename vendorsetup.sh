@@ -29,11 +29,4 @@ git clone https://gitlab.com/haydn_new/vendor_xiaomi_haydn-firmware.git -b thirt
 echo 'Cloning Leica Camera'
 git clone https://gitlab.com/haydn_new/haydn-miuicamera -b thirteen-leica vendor/xiaomi/haydn-miuicamera
 
-
-echo 'Adding slow-mo fix for Leica Camera'
-cd hardware/interfaces
-wget https://raw.githubusercontent.com/frozen24king/Patch-haydn/Octavi-13/0003-Update-HIDL-overrideFormat-from-HAL.patch
-patch -p1 <0003-Update-HIDL-overrideFormat-from-HAL.patch
-cd ../..
-
 echo 'delete vendorsetup.sh from device tree once this is done'

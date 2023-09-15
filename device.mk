@@ -46,3 +46,6 @@ $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/haydn-miuicamera/products/miuicamera.mk)
+
+# Call the BCR setup
+$(call inherit-product, vendor/bcr/bcr.mk)

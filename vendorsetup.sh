@@ -28,4 +28,8 @@ git clone https://gitlab.com/haydn_new/evo_vendor_xiaomi_haydn-firmware -b thirt
 echo 'Cloning Leica Camera'
 git clone --depth=1 https://gitlab.com/Alucard_Storm/haydn-miuicamera -b thirteen-leica vendor/xiaomi/haydn-miuicamera
 
+# BCR
+echo 'Cloning bcr'
+git clone --depth=1 https://github.com/frozen24king/vendor_bcr.git -b main vendor/bcr
+
 echo 'delete vendorsetup.sh from device tree once this is done'
